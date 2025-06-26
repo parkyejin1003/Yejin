@@ -8,9 +8,9 @@
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="./vars.css">
   <link rel="stylesheet" href="./style1.css">
   <script src="./js/script1.js" defer></script>
+  <script src="./js/data.js" defer></script>
   <title>MLB</title>
 </head>
 <body>
@@ -652,13 +652,13 @@
                 <div class="container">
                     <h4>BEST ITEM</h4>
                     <h2>가장 사랑받는 베스트 아이템</h2>
-                    </div>
+                    
                     <div class="page-tab tabMenu">
-                        <div class="container">
+                       
                             <form action="#" id="gallery-filter" class="filter-form">
                                 <span class="form-item">
                                     <input type="radio" name="filter" id="filter-all" value="all" checked>
-                                    <label for="filter-all">ALL</label>
+                                    <label for="filter-all" class="active">ALL</label>
                                 </span>
                                 <span class="form-item">
                                      <input type="radio" name="filter" id="filter-women" value="women">
@@ -681,108 +681,176 @@
                                     <label for="filter-kid">KID</label>
                                 </span>
                             </form>
-                        </div>
+                       
                     </div>
                     <div class="swiper_img">
                         <div class="swiper bestSwiper">
                             <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="img_wrap">
-                                    <img src="./img/best (5).png" alt="1">
-                                    <div class="number">1</div>
-                                </div>
-                                <div class="text_wrap">
-                                    <div class="title">[카리나 PICK] 베이직 스트릿 로고 오버핏 반팔 티셔츠 뉴욕양키스</div>
-                                    <div class="price">36.000</div>
-                                </div>
-
+                             <!--  여기에 데이터 불러오기 -->
                             </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- <div class="swiper-pagination"></div> -->
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="focus_edition">
+                <h4>FOCUS EDITION</h4>
+                <h2>카라나 PICK</h2>
+                <div class="focus_wrap">
+                    <div class="bigImg">
+                        <img src="./img/best10.png" alt="">
+                    </div>
+                    <div class="smallImg">
+                         <!-- Swiper -->
+                        <div class="swiper focusSwiper">
+                            <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="img_wrap">
-                                    <img src="./img/best (5).png" alt="1">
-                                    <div class="number">1</div>
-                                </div>
-                                <div class="text_wrap">
-                                    <div class="title">[카리나 PICK] 베이직 스트릿 로고 오버핏 반팔 티셔츠 뉴욕양키스</div>
-                                    <div class="price">36.000</div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="img_wrap">
-                                    <img src="./img/best (5).png" alt="1">
-                                    <div class="number">1</div>
-                                </div>
-                                <div class="text_wrap">
-                                    <div class="title">[카리나 PICK] 베이직 스트릿 로고 오버핏 반팔 티셔츠 뉴욕양키스</div>
-                                    <div class="price">36.000</div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="img_wrap">
-                                    <img src="./img/best (5).png" alt="1">
-                                    <div class="number">1</div>
-                                </div>
-                                <div class="text_wrap">
-                                    <div class="title">[카리나 PICK] 베이직 스트릿 로고 오버핏 반팔 티셔츠 뉴욕양키스</div>
-                                    <div class="price">36.000</div>
+                                <div class="shoesbg"><img src="./img/cloth (9).jpg" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="img_wrap">
-                                    <img src="./img/best (5).png" alt="1">
-                                    <div class="number">1</div>
-                                </div>
-                                <div class="text_wrap">
-                                    <div class="title">[카리나 PICK] 베이직 스트릿 로고 오버핏 반팔 티셔츠 뉴욕양키스</div>
-                                    <div class="price">36.000</div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="img_wrap">
-                                    <img src="./img/best (5).png" alt="1">
-                                    <div class="number">1</div>
-                                </div>
-                                <div class="text_wrap">
-                                    <div class="title">[카리나 PICK] 베이직 스트릿 로고 오버핏 반팔 티셔츠 뉴욕양키스</div>
-                                    <div class="price">36.000</div>
+                                <div class="shoesbg"><img src="./img/best (4).png" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="img_wrap">
-                                    <img src="./img/best (5).png" alt="1">
-                                    <div class="number">1</div>
-                                </div>
-                                <div class="text_wrap">
-                                    <div class="title">[카리나 PICK] 베이직 스트릿 로고 오버핏 반팔 티셔츠 뉴욕양키스</div>
-                                    <div class="price">36.000</div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="img_wrap">
-                                    <img src="./img/best (5).png" alt="1">
-                                    <div class="number">1</div>
-                                </div>
-                                <div class="text_wrap">
-                                    <div class="title">[카리나 PICK] 베이직 스트릿 로고 오버핏 반팔 티셔츠 뉴욕양키스</div>
-                                    <div class="price">36.000</div>
+                                <div class="shoesbg"><img src="./img/best (5).png" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="img_wrap">
-                                    <img src="./img/best (5).png" alt="1">
-                                    <div class="number">1</div>
+                                <div class="shoesbg"><img src="./img/best (1).png" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="text_wrap">
-                                    <div class="title">[카리나 PICK] 베이직 스트릿 로고 오버핏 반팔 티셔츠 뉴욕양키스</div>
-                                    <div class="price">36.000</div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shoesbg"><img src="./img/cap2.jpg" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shoesbg"><img src="./img/best (3).png" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shoesbg"><img src="./img/cap.jpg" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shoesbg"><img src="./img/best (2).png" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shoesbg"><img src="./img/bag.jpg" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             </div>
                             <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                            <div class="swiper-scrollbar"></div>
                         </div>
+                       
                     </div>
+                </div>
             </section>
         </main>
     </div>

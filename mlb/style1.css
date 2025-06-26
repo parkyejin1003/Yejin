@@ -140,13 +140,14 @@ nav>ul>li>div>div>ul{
 .tab_content>div>div{
     display: flex;
 }
-.tab_content>div>div>.bigImg{
+.bigImg{
     width:30%;
     margin-right: 20px;
 }
-.tab_content>div>div>.smallImg{
+.smallImg{
     width:65%;
     display: flex;
+    position: relative;
 }
 .tab_content>div>div>ul>li{
     width: calc(100% / 4);
@@ -172,33 +173,33 @@ nav>ul>li>div>div>ul{
     white-space: nowrap;
 }
 .r{color: red;}
-.tab_content>div>div>ul>li>.textBox>.price{
+/* .tab_content>div>div>ul>li> */.textBox>.price{
     font-size: 14px;
     font-weight: 700;
 }
-.tab_content>div>div>ul>li>.textBox>.color{
+.color{
     margin: 20px 0;
 }
-.tab_content>div>div>ul>li>.textBox>.color>ul{
+.color>ul{
     display: flex;
 }
-.tab_content>div>div>ul>li>.textBox>.color>ul>li{
+.color>ul>li{
     margin-right: 5px;
 }
-.tab_content>div>div>ul>li>.textBox>.color>ul>li>a{
+.color>ul>li>a{
     display: block;
     border-radius: 50%;
 }
-.tab_content>div>div>ul>li>.textBox>.color>ul>li>a>span{
+.color>ul>li>a>span{
     display: block;
     width: 12px;
     height: 12px;
     border-radius: 50%;
 }
-.tab_content>div>div>ul>li>.textBox>.color>ul>li>a>.b{background-color: burlywood;}
-.tab_content>div>div>ul>li>.textBox>.color>ul>li>a>.r{background-color: red;}
-.tab_content>div>div>ul>li>.textBox>.color>ul>li>a>.n{background-color: rgb(0, 0, 95);}
-.tab_content>div>div>ul>li>.textBox>.color>ul>li>a>.g{background-color: #333;}
+.b{background-color: burlywood;}
+.red{background-color: red;}
+.n{background-color: rgb(0, 0, 95);}
+.g{background-color: #333;}
 .tab_content>.tab_item3 .smallImg>li>.shoesbg{background-color: rgb(248, 248, 248);}
 
 .banner{
@@ -217,3 +218,129 @@ nav>ul>li>div>div>ul{
 .swiper-pagination{
     bottom: 0;
 }
+
+.best .container{
+    padding: 0 50px
+}
+.best .container .page-tab.tabMenu{margin-top:30px;}
+.best .container .page-tab.tabMenu{}
+.filter-form input[type="radio"] {
+    display: none;
+}
+
+.filter-form label {
+    cursor: pointer;
+    padding: 8px 16px;
+    margin-right: 5px;
+    border-radius: 4px;
+    transition: 0.3s;
+    color: #555;
+    text-transform: uppercase;
+}
+
+.filter-form input:checked + label {
+    color: #000;
+    padding-left: 0;
+    font-weight: bold;
+}
+.swiper_img{
+    margin-top: 50px;
+}
+.swiper_img .bestSwiper{}
+.swiper_img .bestSwiper .swiper-wrapper{
+    padding-bottom: 30px;
+}
+.swiper_img .bestSwiper .swiper-wrapper .swiper-slide{
+    position: relative;
+}
+.swiper_img .bestSwiper .swiper-wrapper .swiper-slide .img_wrap{}
+.swiper_img .bestSwiper .swiper-wrapper .swiper-slide .img_wrap img{}
+.swiper_img .bestSwiper .swiper-wrapper .swiper-slide .img_wrap .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: #000;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper_img .bestSwiper .swiper-wrapper .swiper-slide .text_wrap{}
+.swiper_img .bestSwiper .swiper-wrapper .swiper-slide .text_wrap .title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.swiper_img .bestSwiper .swiper-wrapper .swiper-slide .text_wrap .price{
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.swiper_img .bestSwiper .swiper-pagination{
+     position: absolute;
+     bottom: 0px;
+        top: auto;
+        left: 0;
+        width: 100%;
+        text-align: center;
+   
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: #000;
+}
+
+.focus_edition{
+    padding: 50px;
+}
+.focus_edition h2{
+    margin-bottom: 30px;
+}
+.focus_wrap{
+    display: flex;
+}
+.smallImg .focusSwiper .swiper-slide{
+    width: 346px;
+    height: 578px;
+    padding-bottom: 20px;
+}
+.smallImg .focusSwiper .swiper-slide .shoesbg{
+    width: 100%;
+    height: 460px;
+
+}
+.smallImg .focusSwiper .swiper-slide .shoesbg img{
+    width: 100%;
+    height: 100%;
+}
+.smallImg .focusSwiper .swiper-slide .textBox{
+    height: 150px;
+}
+.beige{background-color: antiquewhite;}
+.g{background-color: green;}
+.pink{background-color: pink;}
+.o{background-color: orange;}
+/* .swiper-button-next3{
+    position: absolute;
+    top: -50px;
+   right: 0;
+    color: #000;
+     z-index: 999;
+}
+.swiper-button-prev3{
+    position: absolute;
+    top: -50px;
+    right: 0;
+    color: #000;
+      z-index: 999;
+}
+.swiper-pagination3{
+    position: absolute;
+    top: -50px;
+    left: 500px;
+    color: #000;
+
+  
+    
+} */

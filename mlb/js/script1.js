@@ -30,12 +30,52 @@ $(function(){
         el: ".swiper-pagination",
         type: "progressbar",
       },
-      slidesPerView:5,
+
       spaceBetween: 20,
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+      scrollbar: {
+        el: ".swiper-scrollbar",
+      },
+      slidesPerView: 5,
+      centeredSlides: false,
+      slidesPerGroupSkip: 5,
+      grabCursor: true,
+      keyboard: {
+        enabled: true,
+      },
     });
+
+   
+     var swiper3 = new Swiper(".focusSwiper", {
+      slidesPerView: 3,
+      centeredSlides: false,
+      slidesPerGroupSkip: 1,
+      spaceBetween: 10,
+      grabCursor: true,
+      keyboard: {
+        enabled: true,
+      },
+      breakpoints: {
+        769: {
+          slidesPerView: 3.5,
+          slidesPerGroup: 3.5,
+        },
+      },
+      scrollbar: {
+        el: ".swiper-scrollbar",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next3",
+        prevEl: ".swiper-button-prev3",
+      },
+      pagination: {
+        el: ".swiper-pagination3",
+        type: "fraction",
+      },
+    });
+  
 
 })

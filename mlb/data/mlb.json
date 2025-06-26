@@ -89,7 +89,7 @@
     },
     {
         "id":12,
-        "img": "img/best10.jpg",
+        "img": "img/best6.png",
         "title": "[카리나 PICK] 바시티 빈티지 워싱 그래픽 메가 오버핏 반팔 티셔츠 LA다저스",
         "category":"women",
         "price":49000
@@ -97,7 +97,7 @@
     },
     {
         "id":13,
-        "img": "img/best6.png",
+        "img": "img/best4.png",
         "title": "[카리나 PICK] 루키 언스럭쳐 볼캡 LA 다져스",
         "category":"cap",
         "price":29000
@@ -105,7 +105,7 @@
     },
    {
         "id":14,
-        "img": "img/best4.png",
+        "img": "img/best10.png",
         "title": "[카리나 PICK] 다운서 레인부츠 앙크레",
         "category":"shoes",
         "price":39000
@@ -157,5 +157,5 @@
         "category":"kid",
         "price":19000
         
-    },
+    }
 ]
