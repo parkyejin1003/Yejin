@@ -77,5 +77,66 @@ $(function(){
       },
     });
   
+    var swiper = new Swiper(".crewSwiper", {
+      slidesPerView: 2,
+      centeredSlides: false,
+      slidesPerGroupSkip: 1,
+      grabCursor: true,
+      keyboard: {
+        enabled: true,
+      },
+      breakpoints: {
+        769: {
+          slidesPerView:4,
+          slidesPerGroup: 2,
+        },
+      },
+      scrollbar: {
+        el: ".swiper-scrollbar",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
 
+  $(".tab_content1 > div").hide();
+  $(".tab_content1 > div").eq(0).show();
+
+  $(".tab_wrap1>ul>li").click(function(e){
+      e.preventDefault();
+
+      // 탭 메뉴 활성화
+      $(".tab_wrap1 ul li").removeClass("active");
+      $(this).addClass("active");
+
+      // 탭 콘텐츠 보여주기
+      let idx = $(this).index();
+      $(".tab_content1 > div").hide();
+      $(".tab_content1 > div").eq(idx).show();
+  });
+
+  var swiper = new Swiper(".kakaoSwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay:true
+    });
+
+    var swiper = new Swiper(".reviewSwiper", {
+      slidesPerView: 5,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination_review",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+      },
+    });
 })
