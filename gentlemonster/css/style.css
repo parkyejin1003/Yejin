@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #f3f4f6;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+header>.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+}
+.menu{}
+.menu>ul{
+    display: flex;
+}
+.menu>ul>li{}
+.menu>ul>li>a{
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    padding-right: 20px ;
+}
+/* 기본은 dark로 설정 */
+header.dark-theme .menu a,
+header.dark-theme .mypage i {
+  color: #fff;
+}
+
+header.light-theme .menu a,
+header.light-theme .mypage i {
+  color: #000;
+}
+
+.logo{}
+.mypage{
+    display: flex;
+    height: 90px;
+    align-items: center ;
+}
+.mypage>.headerSwiper{
+    width: 50px;
+    height: 50px;
+}
+.mypage>div{
+    margin-left: 30px;
+}
+.mypage i{
+    color: #fff;
+}
+.headerSwiper .swiper-slide{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.swiper-wrapper{
+    height: 90px; 
+    align-items: center;
+}
+.main_banner{
+    height: 90vh;
+    width: 100%;
+}
+.mainSwiper{
+    width: 100%;
+    height:100%;     
+}
+.mainSwiper .swiper-wrapper{
+    width: 100%;
+    height:100%;  
+}
+.mainSwiper .swiper-wrapper .swiper-slide{
+    width: 100%;
+    height:100%;  
+}
+/* .swiper-slide{
+     position: relative;
+} */
+img{
+    width: 100%;
+    height: 90vh;
+}
+.swiper-pagination-bulle{
+    width: 100px;height: 1px;
+}
+.swiper-pagination-bullet-active{
+    color: #fff;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    width: 100px;
+    height: 2px;
+}
+.swiper-pagination-bullet-active{
+    background-color: #fff;
+}
+.mainSwiper h1{
+    position: absolute;
+    z-index: 3;
+    color: #fff;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Abril Fatface", serif;
+    font-size: 30px;
+}
+.mainSwiper .text{}
+.mainSwiper .text p{}
+.model{
+    width: 100%;
+    height: 960px;
+    z-index: 6;
+}
+.model .swiper_M {
+    width: 100%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.model .swiper_M .swiper-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.model  .swiper_M .swiper-wrapper .swiper-slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.model  .modelSwiper2 {
+    height: 80%;
+    width: 100%;
+}
+
+.model .modelSwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    width: 50%;
+    
+}
+
+.model .modelSwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+}
+
+.model  .modelSwiper .swiper-slide-thumb-active {
+}
+
+.model  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.theme{
+    position: absolute;
+    top: 660px;
+    left: 50px;
+}
+.name{
+    font-size: 14px;
+}
+.wishlist{
+    margin-top: 10px;
+}
+.wishlist a{
+    font-size: 12px;
+}
