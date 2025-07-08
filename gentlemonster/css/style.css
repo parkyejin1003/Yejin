@@ -230,6 +230,8 @@ img{
 }
 .wishlist a{
     font-size: 12px;
+    text-decoration: none;
+    color: #878787;
 }
 
 
@@ -439,4 +441,5 @@ footer{
 .left .bottom p{
     color: #878787;
     padding: 20px;
+    line-height: 150%;
 }
