@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+section{overflow: hidden;}
+.ir_so{
+    position: absolute;
+    left: -99999px;
+    
+}
+body{
+    background-color: #f3f4f6;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+}
+header>.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+}
+
+.menu>ul{
+    display: flex;
+}
+
+header .menu>ul>li>a{
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    padding-right: 20px ;
+}
+/* 기본은 dark로 설정 */
+header.dark-text .menu a,
+header.dark-text .mypage i
+
+{
+  color: #000;
+}
+header.dark-text .logo a svg path{
+    fill:#000
+}
+
+/* 일반 CSS 기준일 경우 */
+header.scrolled {
+  background-color: rgba(255, 255, 255, 0.8); /* 반투명 흰색 */
+  color: black;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  backdrop-filter: blur(10px); /* 흐릿한 느낌 */
+}
+header.scrolled .logo a svg path{
+    fill:#000
+}
+
+header.scrolled  .menu a, header.scrolled .mypage i{color: #000}
+.mypage{
+    display: flex;
+    height: 90px;
+    align-items: center ;
+}
+.mypage>.headerSwiper{
+    width: 50px;
+    height: 50px;
+}
+.mypage>div{
+    margin-left: 30px;
+}
+ header .mypage i{
+    color: #fff;
+}
+.headerSwiper .swiper-slide{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+header.dark-text .headerSwiper .swiper-slide{
+     color: #000;
+}
+header.scrolled .headerSwiper .swiper-slide{
+     color: #000;
+}
+.swiper-wrapper{
+    height: 90px; 
+    align-items: center;
+}
+.main_banner{
+/*     height: 90vh; */
+    width: 100%;
+}
+.mainSwiper{
+    width: 100%;
+    height:100%;     
+}
+.mainSwiper .swiper-wrapper{
+    width: 100%;
+    height:100%;  
+}
+.mainSwiper .swiper-wrapper .swiper-slide{
+    width: 100%;
+    height:100%;
+}
+
+img{
+    width: 100%;
+ 
+}
+.mainSwiper .swiper-wrapper .swiper-slide video{
+    width: 100%;
+   
+}
+.swiper-pagination-bulle{
+    width: 100px;height: 1px;
+}
+.swiper-pagination-bullet-active{
+    color: #fff;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    width: 100px;
+    height: 2px;
+}
+.swiper-pagination-bullet-active{
+    background-color: #fff;
+}
+.mainSwiper h1{
+    position: absolute;
+    z-index: 3;
+    color: #fff;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Abril Fatface", serif;
+    font-size: 30px;
+}
+.mainSwiper .text{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+     bottom:10%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.mainSwiper .text p{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    color: #fff;
+}
+.mainSwiper.dark-text .text p{
+    border: 1px solid #000;
+    color: #000;
+}
+.mainSwiper .color{
+   
+    color: #000;
+
+}
+
+.model{
+    width: 100%;
+    height: 1000px;
+    z-index: 6;
+    position: relative;
+}
+.model .swiper_M {
+    width: 100%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.model .swiper_M .swiper-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.model  .swiper_M .swiper-wrapper .swiper-slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.model  .modelSwiper2 {
+    height: 80%;
+    width: 100%;
+}
+
+.model .modelSwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    width: 50%;
+    
+}
+
+.model .modelSwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+}
+
+.model  .modelSwiper .swiper-slide-thumb-active {
+}
+
+.model  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.theme{
+    position: absolute;
+    top: 660px;
+    left: 50px;
+}
+.name{
+    font-size: 14px;
+}
+.wishlist{
+    margin-top: 10px;
+}
+.wishlist a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #878787;
+}
+
+
+.banner1{ width: 100%; }
+.banner1 .banner1Swiper{width: 100%; height: 100%}
+.banner1 .banner1Swiper>div{width: 100%; height: 100%}
+.banner1 .banner1Swiper>div>div{width: 100%; height: 100%}
+
+.student{
+    padding: 50px;
+}
+.student h2{
+    margin: 100px;
+    font-family: "Abril Fatface", serif;
+    text-align: center;
+    font-size: 40px;
+    color: #770000;
+}
+.high_school{
+    margin: 100px;
+    font-family: "Abril Fatface", serif;
+    text-align: center;
+    font-size: 40px;
+    color: #770000;
+}
+.studentWrap{
+    display: flex;
+}
+.bigImg{
+    width:30%;
+    margin-right: 20px;
+}
+.bigImg .bigSwiper{
+    width:calc(736px / 2);
+    height:calc(920px / 2);
+
+}
+.bigImg .bigSwiper .swiper-wrapper{width: 100%; height: 100%}
+.bigImg .bigSwiper .swiper-wrapper  .swiper-slide{width: 100%; height: 100%}
+.smallImg{
+    width:65%;
+    display: flex;
+    position: relative;
+}
+.smallImg .focusSwiper .swiper-slide{
+    width: 346px;
+    height: 578px;
+    padding-bottom: 20px;
+}
+.smallImg .focusSwiper .swiper-slide .shoesbg{
+    width: 100%;
+    height: 100%;
+
+}
+.smallImg .focusSwiper .swiper-slide .shoesbg img{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+.bigSwiper .swiper-slide:nth-child(1) {background: url(../img/img/학생배너\ \(1\).jpeg) no-repeat center center/100%;}
+.bigSwiper .swiper-slide:nth-child(2) {background: url(../img/img/학생배너\ \(3\).jpeg) no-repeat center center/100%;}
+.bigSwiper .swiper-slide:nth-child(3) {background: url(../img/img/학생배너\ \(4\).jpeg) no-repeat center center/100%;}
+.bigSwiper .swiper-slide:nth-child(4) {background: url(../img/img/학생배너\ \(5\).jpeg) no-repeat center center/100%;}
+.bigSwiper .swiper-slide:nth-child(5) {background: url(../img/img/학생배너\ \(6\).jpeg) no-repeat center center/100%;}
+.smallImg .focusSwiper .swiper-slide:nth-child(1) .shoesbg {background: url(../img/img/학생\ \(1\).png) no-repeat center center/100%;}
+.smallImg .focusSwiper .swiper-slide:nth-child(2) .shoesbg {background: url(../img/img/학생\ \(2\).png) no-repeat center center/100%;}
+.smallImg .focusSwiper .swiper-slide:nth-child(3) .shoesbg {background: url(../img/img/학생\ \(3\).png) no-repeat center center/100%;}
+.smallImg .focusSwiper .swiper-slide:nth-child(4) .shoesbg {background: url(../img/img/학생\ \(4\).png) no-repeat center center/100%;}
+.smallImg .focusSwiper .swiper-slide:nth-child(5) .shoesbg {background: url(../img/img/학생\ \(5\).png) no-repeat center center/100%;}
+.smallImg .focusSwiper .swiper-slide:nth-child(6) .shoesbg {background: url(../img/img/학생\ \(6\).png) no-repeat center center/100%;}
+.smallImg .focusSwiper .swiper-slide:nth-child(7) .shoesbg {background: url(../img/img/학생\ \(7\).png) no-repeat center center/100%;}
+.smallImg .focusSwiper .swiper-slide:nth-child(8) .shoesbg {background: url(../img/img/학생\ \(8\).png) no-repeat center center/100%;}
+.smallImg .focusSwiper .swiper-slide:nth-child(9) .shoesbg {background: url(../img/img/학생\ \(9\).png) no-repeat center center/100%;}
+.smallImg .focusSwiper .swiper-slide:nth-child(10) .shoesbg {background: url(../img/img/학생\ \(10\).png) no-repeat center center/100%;}
+.smallImg .focusSwiper .swiper-slide:nth-child(11) .shoesbg {background: url(../img/img/학생\ \(11\).png) no-repeat center center/100%;}
+.smallImg .focusSwiper .swiper-slide:nth-child(12) .shoesbg {background: url(../img/img/학생\ \(12\).png) no-repeat center center/100%;}
+.smallImg .focusSwiper .swiper-slide .textBox{
+    height: 150px;
+}
+.focusSwiper .swiper-wrapper{
+    height: 442px;
+}
+.swiper-scrollbar-drag {background: #878787}
+.more{
+    background: none;
+    border: 1px solid #ddd;
+    z-index: 999;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    padding: 20px 30px;
+    font-size: 16px;
+}
+.ai{
+    background: url(../img/img/카리나.avif) no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.ai h2{
+    left: 0;
+    font-family: "Abril Fatface", serif;
+    font-size: 30px;
+    position: absolute;
+    top: 44%;
+    left: 4%;
+    color: #fff;
+}
+.ai p{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    color: #fff;
+    line-height: 160%;
+    font-size: 15px;
+}
+.ai_glasses{
+    position: relative;
+    padding-bottom: 150px;
+}
+.ai_glasses ul{
+    display: flex;
+    width: 1500px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ai_glasses ul li{
+    width:500px;
+    position: relative;
+
+}
+.ai_glasses ul li a{
+    display: block;
+}
+.ai_glasses ul li video{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+.ai_glasses .name{
+    z-index: 99999999999;
+    color: #000;
+    position: absolute;
+   bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);}
+.ai_glasses .price{
+    z-index: 9999;
+    color: #000;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+}
+.student_glass{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 300px;
+}
+.highSwiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    height: 100%;
+}
+.highSwiper>div>div{
+    position: relative;
+}
+.highSwiper>div>div>.textBox{
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    z-index: 99;
+    text-align: center;
+    color: #770000;
+    transform: translateX(-50%);
+    line-height: 180%;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.right img{
+    width: 200px;
+    height: 240px;
+    padding-right: 35px;
+}
+.left .top{margin-bottom: 20px;}
+.left .top a{
+    font-size: 15px;
+    color: #878787;
+    text-decoration: none;
+    padding: 20px;
+}
+.left .bottom p{
+    color: #878787;
+    padding: 20px;
+    line-height: 150%;
+}
+.glasses .swiper {
+      width: 736px;
+      height: 414px;
+    }
+.location{
+    font-family: "Abril Fatface", serif;
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    margin: 100px 0;
+}
+.part{
+    font-family: "Abril Fatface", serif;
+    text-align: center;
+    font-size: 60px;
+    color: #000;
+}
+.glasses{
+    margin-bottom: 300px;
+}

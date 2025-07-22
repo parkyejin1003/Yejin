@@ -1,0 +1,2060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 폰트어썸 -->
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <!-- Swiper JS -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style1.css">
+  <script src="./js/script1.js" defer></script>
+  <script src="./js/data.js" defer></script>
+  <title>MLB</title>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="header-inner">
+                <div class="mlbLogo_gnb">
+                    <h1><img src="./img/mlb/mlb01.svg" alt="로고"></h1>
+                    <div class="gnb">
+                        <div class="icon">
+                            <img src="./img/mlb/mlb02.svg" alt="검색">
+                            <img src="./img/mlb/mlb03.svg" alt="장바구니">
+                            <img src="./img/mlb/mlb04.svg" alt="사람">
+                        </div>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">WOMEN</a>
+                            <div class="women_category">
+                                <div>
+                                    <ul>
+                                        <li><a href="#" class="tit">아우터</a></li>
+                                        <li><a href="#">바람막이/아노락</a></li>
+                                        <li><a href="#">워크자켓</a></li>
+                                        <li><a href="#">자켓/점퍼</a></li>
+                                        <li><a href="#">가디건/조끼</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" class="tit">상의</a></li>
+                                        <li><a href="#">티셔츠</a></li>
+                                        <li><a href="#">민소매</a></li>
+                                        <li><a href="#">맨투맨</a></li>
+                                        <li><a href="#">후드티</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" class="tit">하의</a></li>
+                                        <li><a href="#">반바지</a></li>
+                                        <li><a href="#">트레이닝 팬츠</a></li>
+                                        <li><a href="#">스커트</a></li>
+                                        <li><a href="#">우븐 팬츠</a></li>
+                                        <li><a href="#">데님 팬츠</a></li>
+                                        <li><a href="#">레깅스</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" class="tit">데님</a></li>
+                                        <li><a href="#">자켓</a></li>
+                                        <li><a href="#">셔츠</a></li>
+                                        <li><a href="#">팬츠</a></li>
+                                        <li><a href="#">원피스/스커트</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">MEN</a>
+                            <div class="men_category">
+                                <div>
+                                    <ul>
+                                        <li><a href="#" class="tit">아우터</a></li>
+                                        <li><a href="#">바람막이/아노락</a></li>
+                                        <li><a href="#">워크자켓</a></li>
+                                        <li><a href="#">자켓/점퍼</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" class="tit">상의</a></li>
+                                        <li><a href="#">티셔츠</a></li>
+                                        <li><a href="#">민소매</a></li>
+                                        <li><a href="#">맨투맨</a></li>
+                                        <li><a href="#">후드티</a></li>
+                                        <li><a href="#">집업/후드집업</a></li>
+                                        <li><a href="#">셔츠</a></li>
+                                        <li><a href="#">카라티</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" class="tit">하의</a></li>
+                                        <li><a href="#">반바지</a></li>
+                                        <li><a href="#">트레이닝 팬츠</a></li>
+                                        <li><a href="#">스커트</a></li>
+                                        <li><a href="#">우븐 팬츠</a></li>
+                                        <li><a href="#">데님 팬츠</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" class="tit">데님</a></li>
+                                        <li><a href="#">자켓</a></li>
+                                        <li><a href="#">셔츠</a></li>
+                                        <li><a href="#">팬츠</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">CAP</a>
+                            <div class="cap_category">
+                                <div>
+                                    <ul>
+                                        <li><a href="#" class="tit">볼캡</a></li>
+                                        <li><a href="#">언스트럭쳐 볼캡</a></li>
+                                        <li><a href="#">스트럭쳐 볼캡</a></li>
+                                        <li><a href="#">데님 볼캡</a></li>
+                                        <li><a href="#">빈티지 볼캡</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" class="tit">HAT</a></li>
+                                        <li><a href="#">버킷햇</a></li>
+                                        <li><a href="#">사파리햇</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" class="tit">시즌모자</a></li>
+                                        <li><a href="#">메쉬캡</a></li>
+                                        <li><a href="#">썬캡</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" class="tit">썸머비니</a></li>
+                                        <li><a href="#">미드 비니</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">SHOES</a>
+                            <div class="shoes_category">
+                                <div>
+                                    <ul>
+                                        <li><a href="#" class="tit">러닝화</a></li>
+                                        <li><a href="#">커브 러너</a></li>
+                                        <li><a href="#">에이스 러너</a></li>
+                                        <li><a href="#">스피드 러너</a></li>
+                                        <li><a href="#">정키 러너</a></li>
+                                        <li><a href="#">필더 러너</a></li>
+                                        <li><a href="#">패스트볼</a></li>
+                                        <li><a href="#">애스플로우</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" class="tit">운동화</a></li>
+                                        <li><a href="#">빅볼 정키</a></li>
+                                        <li><a href="#">위너 청키</a></li>
+                                        <li><a href="#">카고 챙키</a></li>
+                                        <li><a href="#">청키 라이너</a></li>
+                                        <li><a href="#">청키 클래식</a></li>
+                                        <li><a href="#">청키 와이드</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" class="tit">샌들/슬리퍼</a></li>
+                                        <li><a href="#">정키 마스크</a></li>
+                                        <li><a href="#">샌들</a></li>
+                                        <li><a href="#">슬리퍼</a></li>
+                                        <li><a href="#">뮬</a></li>
+                                        <li><a href="#">레인부츠</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">BAG&ACC</a>
+                            <div class="bag_category">
+                                <div>
+                                    <ul>
+                                        <li><a href="#" class="tit">가방</a></li>
+                                        <li><a href="#">호보백</a></li>
+                                        <li><a href="#">짐색</a></li>
+                                        <li><a href="#">백팩</a></li>
+                                        <li><a href="#">버킷백</a></li>
+                                        <li><a href="#">토트백</a></li>
+                                        <li><a href="#">힙색</a></li>
+                                        <li><a href="#">크로스백</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" class="tit">용품</a></li>
+                                        <li><a href="#">키링</a></li>
+                                        <li><a href="#">양말</a></li>
+                                        <li><a href="#">캐리어</a></li>
+                                        <li><a href="#">ETC</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#" class="bear">KIDS</a>
+                            <div class="kid_category">
+                                <div>
+                                    <ul>
+                                        <li><a href="#" class="tit">키즈 의류</a></li>
+                                        <li><a href="#">반팔 티셔츠</a></li>
+                                        <li><a href="#">팬츠</a></li>
+                                        <li><a href="#">맨투맨/후디</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" class="tit">키즈 모자</a></li>
+                                        <li><a href="#">기본 볼캡</a></li>
+                                        <li><a href="#">메시 스냅백</a></li>
+                                        <li><a href="#">플랩햇</a></li>
+                                        <li><a href="#">버킷햇</a></li>
+                                        <li><a href="#">여름용 썬바이저</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" class="tit">키즈 신발</a></li>
+                                        <li><a href="#">러닝화, 스니커즈</a></li>
+                                        <li><a href="#">슬리퍼, 샌들</a></li>
+                                        <li><a href="#">아기용 베이비 슈즈</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#" class="tit">키즈 가방</a></li>
+                                        <li><a href="#">크로스백</a></li>
+                                        <li><a href="#">백팩</a></li>
+                                        <li><a href="#">미니백</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#"class="bold">PROMOTION</a></li>
+                        <li><a href="#"class="bold">TREND</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="mainSlide">
+                <div class="swiper mainSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/bg 1.webp" alt="bg">
+                            <div class="text">
+                                <h2>SUMMER SPORTIVE <br> MLB WITH KARINA</h2>
+                                <p>여름을 맞이하는 MLB의 새로운 컬렉션</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/bg 2.webp" alt="bg">
+                           <div class="text">
+                                <h2>MLB NEW ICON <br> KARINA IN MLB</h2>
+                                <p>MLB와 카리나의 빈티지 스트릿 무드</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/bg 3.webp" alt="bg">
+                            <div class="text">
+                                <h2>WITH MLB CREW  <br>카리나 픽 여름 아이템</h2>
+                                <p>카리나와 MLB CREW가 제안하는 아이코닉한 여름</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/bg 4.webp" alt="bg">
+                            <div class="text">
+                                <h2>MLB STREET ESSENTIAL  <br>어디서든 돋보이는 썸머룩</h2>
+                                <p>매력적인 TOP & BOTTOM 스타일링 TOP5!</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/bg 5.webp" alt="bg">
+                            <div class="text">
+                                <h2>FESTIVAL IS VIBE  <br>MLB 페스티벌 스타일링</h2>
+                                <p>감각적인 무드로 완성하는 여름 시즌의 힙한 순간</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/bg 6.webp" alt="bg">
+                            <div class="text">
+                                <h2>가볍고 청량한 여름 신발 <br> COOL LIGHT SUMMER</h2>
+                                <p>여름 신발을 선택하는 가장 스타일리쉬한 기준</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/bg 7.webp" alt="bg">
+                            <div class="text">
+                                <h2>COOL AND STYLEISH <br> 키즈 쿨필드 컬렉션</h2>
+                                <p>COOL하고 쾌적한 우리 아이 썸머 스타일링</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/bg 8.webp" alt="bg">
+                            <div class="text">
+                                <h2>힙하게, 쾌적하게! <br> 25 S/S 키즈 메쉬캡 컬렉션</h2>
+                                <p>스타일과 기능성을 두루 잡은 MLB KIDS 메쉬캡</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </section>
+            <section class="seasonpick">
+                <div class="container">
+                    <h4>SEASON PICK</h4>
+                    <h2>지금 시즌 가장 뜨거운 아이템</h2>
+                    <div class="tab_wrap">
+                        <ul>
+                            <li class="active"><a href="#">카리나 볼캡</a></li>
+                            <li><a href="javascript:">썸머로고티셔츠</a></li>
+                            <li><a href="javascript:">여름신발</a></li>
+                            <li><a href="javascript:">메쉬볼캡</a></li>
+                            <li><a href="javascript:">버뮤다숏팬츠</a></li>
+                        </ul>
+                        <div class="tab_content">
+                            <div class="tab_item1">
+                                <div>
+                                    <div class="bigImg"><img src="./img/image-img0.png" alt=""></div>
+                                    <ul class="smallImg">
+                                        <li>
+                                            <div><img src="./img/cap.jpg" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[카리나 PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 LA다저스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div><img src="./img/div9.png" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[카리나 PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 LA다저스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div><img src="./img/div11.png" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[카리나 PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 LA다저스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div><img src="./img/div13.png" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[카리나 PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 LA다저스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab_item2">
+                                 <div>
+                                    <div class="bigImg"><img src="./img/cloth (11).jpg" alt=""></div>
+                                    <ul class="smallImg">
+                                        <li>
+                                            <div><img src="./img/cloth (14).jpg" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[30% OFF]</span>베이직 빅로고 메가 오버핏 반팔 티셔츠 LA다저스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div><img src="./img/cloth (15).jpg" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[30% OFF]</span>베이직 빅로고 메가 오버핏 반팔 티셔츠 LA다저스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div><img src="./img/cloth (8).jpg" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[30% OFF]</span>베이직 빅로고 메가 오버핏 반팔 티셔츠 LA다저스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div><img src="./img/cloth.jpg" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[30% OFF]</span>베이직 빅로고 메가 오버핏 반팔 티셔츠 LA다저스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab_item3">
+                                <div>
+                                    <div class="bigImg"><img src="./img/shoes (1).jpg" alt=""></div>
+                                    <ul class="smallImg">
+                                        <li>
+                                            <div class="shoesbg"><img src="./img/shoes (1).png" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[25S 신상]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div  class="shoesbg"><img src="./img/shoes (2).png" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[25S 신상]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div class="shoesbg"><img src="./img/shoes (3).png" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[25S 신상]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div class="shoesbg"><img src="./img/shoes (4).png" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[25S 신상]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab_item4">
+                                <div>
+                                    <div class="bigImg"><img src="./img/모자 (1).jpg" alt=""></div>
+                                    <ul class="smallImg">
+                                        <li>
+                                            <div><img src="./img/모자 (1).png" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[25S 신상]</span>바시티 빈티지 메쉬캡 보스턴 레드삭스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div><img src="./img/모자 (2).png" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[25S 신상]</span>바시티 빈티지 메쉬캡 보스턴 레드삭스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div><img src="./img/모자 (3).png" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[25S 신상]</span>바시티 빈티지 메쉬캡 보스턴 레드삭스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div><img src="./img/모자 (4).png" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[25S 신상]</span>바시티 빈티지 메쉬캡 보스턴 레드삭스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab_item5">
+                                <div>
+                                    <div class="bigImg"><img src="./img/바지.jpg" alt=""></div>
+                                    <ul class="smallImg">
+                                        <li>
+                                            <div><img src="./img/바지 (1).png" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title"><span class="r">[카리나 PICK]</span> 베이직 쿠퍼스 로고 빈티지 6부 반바지 뉴욕양키스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div><img src="./img/바지 (2).png" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title">베이직 스몰로고 원턱 카고 버뮤다 숏팬츠 시카고 화이트삭스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div><img src="./img/바지 (3).png" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title">베이직 스몰로고 원턱 카고 버뮤다 숏팬츠 뉴욕양키스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div><img src="./img/바지 (4).jpg" alt=""></div>
+                                            <div class="textBox">
+                                                <div class="title">베이직 스몰로고 카펜터 버뮤다 데님쇼츠 뉴욕양키스</div>
+                                                <div class="price">49.000</div>
+                                                <div class="color">
+                                                    <ul>
+                                                        <li><a href="#"><span class="b"></span></a></li>
+                                                        <li><a href="#"><span class="r"></span></a></li>
+                                                        <li><a href="#"><span class="n"></span></a></li>
+                                                        <li><a href="#"><span class="g"></span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="banner">
+                <img src="./img/배너.png" alt="카리나배너">
+                <div class="text_banner">
+                    <h2>SUMMER SPORTIVE <br>MLB WITH KARINA</h2>
+                    <p>카리나의 MLB 베이스볼 코어</p>
+                </div>
+            </section>
+            <section class="best">
+                <div class="container">
+                    <h4>BEST ITEM</h4>
+                    <h2>가장 사랑받는 베스트 아이템</h2>
+                    
+                    <div class="page-tab tabMenu">
+                       
+                            <form action="#" id="gallery-filter" class="filter-form">
+                                <span class="form-item">
+                                    <input type="radio" name="filter" id="filter-all" value="all" checked>
+                                    <label for="filter-all" class="active">ALL</label>
+                                </span>
+                                <span class="form-item">
+                                     <input type="radio" name="filter" id="filter-women" value="women">
+                                    <label for="filter-women">Women</label>
+                                </span>
+                                <span class="form-item">
+                                     <input type="radio" name="filter" id="filter-men" value="men">
+                                    <label for="filter-men">Men</label>
+                                </span>
+                                <span class="form-item">
+                                     <input type="radio" name="filter" id="filter-cap" value="cap">
+                                    <label for="filter-cap">Cap</label>
+                                </span>
+                                 <span class="form-item">
+                                     <input type="radio" name="filter" id="filter-shoes" value="shoes">
+                                    <label for="filter-shoes">Shoes</label>
+                                </span>
+                                 <span class="form-item">
+                                     <input type="radio" name="filter" id="filter-kid" value="kid">
+                                    <label for="filter-kid">KID</label>
+                                </span>
+                            </form>
+                       
+                    </div>
+                    <div class="swiper_img">
+                        <div class="swiper bestSwiper">
+                            <div class="swiper-wrapper">
+                             <!--  여기에 데이터 불러오기 -->
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- <div class="swiper-pagination"></div> -->
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="focus_edition">
+                <h4>FOCUS EDITION</h4>
+                <h2>카라나 PICK</h2>
+                <div class="focus_wrap">
+                    <div class="bigImg">
+                        <img src="./img/best10.png" alt="">
+                    </div>
+                    <div class="smallImg">
+                         <!-- Swiper -->
+                        <div class="swiper focusSwiper">
+                            <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="shoesbg"><img src="./img/cloth (9).jpg" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shoesbg"><img src="./img/best (4).png" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shoesbg"><img src="./img/best (5).png" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shoesbg"><img src="./img/best (1).png" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shoesbg"><img src="./img/cap2.jpg" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shoesbg"><img src="./img/best (3).png" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shoesbg"><img src="./img/cap.jpg" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shoesbg"><img src="./img/best (2).png" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shoesbg"><img src="./img/bag.jpg" alt=""></div>
+                                <div class="textBox">
+                                    <div class="title"><span class="r">[카리나 PICK]</span>빅볼청키 필드 마스크 뉴욕양키스</div>
+                                    <div class="price">79.000</div>
+                                    <div class="color">
+                                        <ul>
+                                            <li><a href="#"><span class="beige"></span></a></li>
+                                            <li><a href="#"><span class="g"></span></a></li>
+                                            <li><a href="#"><span class="pink"></span></a></li>
+                                            <li><a href="#"><span class="o"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </section>
+            <div class="crewPick">
+                <h4>CREW'S PICK</h4>
+                <h2>MLB 크루가 선택한 핫 아이템</h2>
+                <div class="tab_wrap tab_wrap1">
+                    <ul>
+                        <li class="active"><a href="#">반팔티</a></li>
+                        <li><a href="javascript:">커브 러너</a></li>
+                        <li><a href="javascript:">워싱 볼캡</a></li>
+                        <li><a href="javascript:">호보백</a></li>
+                        <li><a href="javascript:">바람막이</a></li>
+                    </ul>
+                    <div class="tab_content1">
+                        <div class="tab_item1">
+                            <div class="swiper crewSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./img/반팔7.jpg" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/div47.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/div13.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/반팔6.jpg" />
+                                       <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/div13.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/shoes (4).png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/반팔5.jpg" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/best.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/shoes (4).png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/반팔4.jpg" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/shoes (2).png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/cloth (9).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/반팔3.jpg" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/best.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/반팔티.jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/반팔2.jpg" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/cloth (9).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/div47.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,00</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/반팔.jpg" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/best.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/best (3).png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/반팔1.jpg" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/div47.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/cap.jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-scrollbar"></div>
+
+                            </div>
+                        </div>
+                        <div class="tab_item1">
+                            <div class="swiper crewSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (30).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발1.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/crew (25).jfif" />
+                                       <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발1.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (32).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/모자 (1).png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (14).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발1.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (11).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발1.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (6).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발1.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (8).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발1.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (5).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발1.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-scrollbar"></div>
+                            </div>
+                        </div>
+                        <div class="tab_item1">
+                            <div class="swiper crewSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (35).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/div61.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/best.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/crew (33).jfif" />
+                                       <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/div61.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/div58.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (31).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/div61.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/cloth1.jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (34).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/div61.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/cloth2.jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (23).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/div61.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/cap.jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (28).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/div61.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/cap.jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (22).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/cap.jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/div61.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (21).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/div11.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/best (1).png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-scrollbar"></div>
+                            </div>
+                        </div>
+                        <div class="tab_item1">
+                            <div class="swiper crewSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (26).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (2).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (3).png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/crew (27).jfif" />
+                                       <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (2).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (1).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (13).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (2).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (1).png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (12).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (2).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (1).png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (9).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (2).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (1).png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (10).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (2).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (1).png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (2).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (2).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (1).png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (4).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (2).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/bag (2).png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-scrollbar"></div>
+                            </div>
+                        </div>
+                        <div class="tab_item1">
+                            <div class="swiper crewSwiper">
+                               <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (29).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/바람막이 (3).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/바람막이 (1).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                       <img src="./img/crew5.jfif" />
+                                       <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/바람막이.jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (18).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/바람막이 (3).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/바람막이 (1).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (20).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/바람막이.jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/신발.png" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (17).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/바람막이 (3).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/바람막이 (1).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (19).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/바람막이.jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/바람막이 (3).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (16).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/바람막이 (2).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/바람막이.jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/crew (15).jfif" />
+                                        <div class="info-wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/바람막이.jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>베이직 고프코어 포켓 크로스백 뉴욕양키스</h3>
+                                                            <p class="price">109,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="imgBox"><img src="./img/바람막이 (3).jpg" alt=""></div>
+                                                        <div class="textWrap">
+                                                            <h3><span class="r">[카리나PICK]</span>바시티 빈티지 컬시브 스티치 언스트럭쳐 볼캡 뉴욕양키스</h3>
+                                                            <p class="price">49,000</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-scrollbar"></div>
+                            </div>
+                        </div>
+ 
+                    </div>
+                </div>
+            </div>
+            <section class="kakao">
+                <!-- Swiper -->
+                <div class="swiper kakaoSwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/블랙.png" alt="블랙베너">
+                        <h1>카카오톡 채널 추가<br>10% 할인 쿠폰 </h1>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/블랙.png" alt="블랙베너">
+                        <h1>현대카드 M 포인트<br>10% 사용 해택 </h1>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/블랙.png" alt="블랙베너">
+                        <h1>신규회원 베네핏<br>1000 마일리지, 쿠폰 3종 </h1>
+                    </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </section>
+            <section class="review">
+                <h4>BEST REVIEW ITEM </h4>
+                <h2>생생한 사용자 리뷰👍</h2>
+                <div class="review_slide">
+                    <!-- Swiper -->
+                    <div class="swiper reviewSwiper">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/review (1).png" alt="">
+                            <div class="textWrap">
+                                <p>트렌디하고 힙한 오버사이즈 티에 빈티지 벌캡으로 멋지다.</p>
+                                <div class="date">2025-6-4</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/review (2).png" alt="">
+                            <div class="textWrap">
+                                <p>트렌디하고 힙한 오버사이즈 티에 빈티지 벌캡으로 멋지다.</p>
+                                <div class="date">2025-6-4</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/review (3).png" alt="">
+                            <div class="textWrap">
+                                <p>트렌디하고 힙한 오버사이즈 티에 빈티지 벌캡으로 멋지다.</p>
+                                <div class="date">2025-6-4</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/review (4).png" alt="">
+                            <div class="textWrap">
+                                <p>트렌디하고 힙한 오버사이즈 티에 빈티지 벌캡으로 멋지다.</p>
+                                <div class="date">2025-6-4</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/review (5).png" alt="">
+                            <div class="textWrap">
+                                <p>트렌디하고 힙한 오버사이즈 티에 빈티지 벌캡으로 멋지다.</p>
+                                <div class="date">2025-6-4</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/review (6).png" alt="">
+                            <div class="textWrap">
+                                <p>트렌디하고 힙한 오버사이즈 티에 빈티지 벌캡으로 멋지다.</p>
+                                <div class="date">2025-6-4</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/review (7).png" alt="">
+                            <div class="textWrap">
+                                <p>트렌디하고 힙한 오버사이즈 티에 빈티지 벌캡으로 멋지다.</p>
+                                <div class="date">2025-6-4</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/review (8).png" alt="">
+                            <div class="textWrap">
+                                <p>트렌디하고 힙한 오버사이즈 티에 빈티지 벌캡으로 멋지다.</p>
+                                <div class="date">2025-6-4</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/review (9).png" alt="">
+                            <div class="textWrap">
+                                <p>트렌디하고 힙한 오버사이즈 티에 빈티지 벌캡으로 멋지다.</p>
+                                <div class="date">2025-6-4</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/review (10).png" alt="">
+                            <div class="textWrap">
+                                <p>트렌디하고 힙한 오버사이즈 티에 빈티지 벌캡으로 멋지다.</p>
+                                <div class="date">2025-6-4</div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination_review"></div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footerTop">
+                <div class="infro">
+                    <a href="#">공지사항</a>
+                    <a href="#">고객센터</a>
+                    <a href="#">매장안내</a>
+                    <a href="#">멤버쉽 해택</a>
+                    <a href="#">정품 인증 안내</a>
+                </div>
+                <div class="sns">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fas fa-globe-asia"></i></a>
+                    <a href="#"><i class="fas fa-map-marked-alt"></i></a>
+                </div>
+            </div>
+            <div class="footerBtm">
+                <div class="Btm_left">
+                    <p>(주)박예진</p>
+                    <p>서울시 종로구 MBC컴퓨터학원</p>
+                    <p>010-1234-5678</p>
+                </div>
+                <div class="Btm_right">
+                   <p>Copyright © F&F Corp. All Rights Reserved.</p>
+                </div>
+            </div>
+            <img src="./img/mlb01.png" class="mlb" alt="">
+        </footer>
+    </div>
+</body>
+</html>
