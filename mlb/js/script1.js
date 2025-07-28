@@ -139,4 +139,11 @@ $(function(){
         },
       },
     });
+    
+    document.getElementById('searchIcon').onclick = function() {
+    document.getElementById('searchModal').style.display = 'block';
+  };
+  document.getElementById('closeModal').onclick = function() {
+    document.getElementById('searchModal').style.display = 'none';
+  };
 })

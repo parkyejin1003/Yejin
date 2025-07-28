@@ -1,0 +1,126 @@
+h1{
+    text-align: center;
+}
+/* 장바구니 전체 컨테이너 */
+#cartContainer {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px;
+}
+
+/* 제목 */
+#cartContainer h2 {
+  font-size: 1.6em;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* 테이블 스타일 */
+#cartContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#cartContainer th, #cartContainer td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+#cartContainer th {
+  background: #f7f7f7;
+  font-weight: 600;
+}
+
+/* 삭제 버튼 */
+.removeBtn {
+  background: #eee;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.removeBtn:hover {
+  background: #ff5252;
+  color: #fff;
+}
+
+/* 총 금액 */
+.total {
+  margin-top: 24px;
+  text-align: right;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+/* 구매하기 버튼 */
+#buyBtn {
+  margin-top: 32px;
+  width: 100%;
+  background: #222;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#buyBtn:hover {
+  background: #0055ff;
+}
+/* 사이드 메뉴바 스타일 */
+.menu_view {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 240px;
+  height: 100vh;
+  background: #fff;
+  box-shadow: 2px 0 16px rgba(0,0,0,0.08);
+  transition: left 0.3s;
+  z-index: 9999;
+  padding: 32px 20px;
+}
+.menu_view.active {
+  left: 0;
+}
+.menu_view h2 {
+  margin-bottom: 24px;
+  margin-top: 70px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.menu_view ul {
+  list-style: none;
+  padding: 0;
+}
+.menu_view li {
+  margin-bottom: 20px;
+}
+.menu_view a {
+  color: #222;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+.menu_view a:hover {
+  color: #0055ff;
+}
+/* 햄버거 아이콘 위치 */
+.menu {
+  position: fixed;
+  top: 24px;
+  left: 20px;
+  z-index: 10000;
+  cursor: pointer;
+}
+i{
+    font-size: 30px;
+}

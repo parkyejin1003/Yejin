@@ -334,29 +334,7 @@ nav>ul>li>div>div>ul>li>a.tit{
 .g{background-color: green;}
 .pink{background-color: pink;}
 .o{background-color: orange;}
-/* .swiper-button-next3{
-    position: absolute;
-    top: -50px;
-   right: 0;
-    color: #000;
-     z-index: 999;
-}
-.swiper-button-prev3{
-    position: absolute;
-    top: -50px;
-    right: 0;
-    color: #000;
-      z-index: 999;
-}
-.swiper-pagination3{
-    position: absolute;
-    top: -50px;
-    left: 500px;
-    color: #000;
 
-  
-    
-} */
  .crewPick{margin: 50px}
  .crewPick .tab_content1{margin-top: 30px;}
 .crewPick .swiper-wrapper{
