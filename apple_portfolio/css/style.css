@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barriecito&family=Bitcount+Prop+Single:wght@100..900&family=Bungee&family=Gravitas+One&family=Oi&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Bubbles&family=Rubik+Glitch&display=swap');
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16vh;
+    width: 100%;
+    text-align: center;
+    user-select: none;
+    pointer-events: none;
+    mix-blend-mode: luminosity;
+    font-family: "Abril Fatface", serif;
+    color: #000;
+}
+
+.lil-gui {
+    display: none;
+    --width: 400px;
+    max-width: 90%;
+    --widget-height: 20px;
+    font-size: 15px;
+    --input-font-size: 15px;
+    --padding: 10px;
+    --spacing: 10px;
+    --slider-knob-width: 5px;
+    --background-color: rgba(5, 0, 15, .8);
+    --widget-color: rgba(255, 255, 255, .3);
+    --focus-color: rgba(255, 255, 255, .4);
+    --hover-color: rgba(255, 255, 255, .5);
+    --font-family: monospace;
+    z-index: 1;
+}
+.lil-gui.autoPlace {
+    max-height: 100%;
+    position: fixed;
+    right: 15px;
+    top:900px;
+    z-index: 1001;
+    display: none;
+}
+header{
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+header .fa-apple{
+    color: red;
+    font-size: 30px;
+}
+.apple{
+    top: 0;
+    left: 0;
+    width: 50px;
+}
+header ul{
+    display: flex;
+    height: 80px;
+    align-items: center;}
+header ul li img{
+    width: 30px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    font-size: 20px;
+}
+header p{
+    font-family: "Playfair Display", serif;
+    color: #000;
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.scroll-down p{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Bitcount Prop Single", system-ui;
+    color: #000;
+    font-size: 2rem;
+}
+.fa-arrow-down{
+    bottom: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 5rem;
+}
+.section1{
+    padding-top: 1200px;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barriecito&family=Bitcount+Prop+Single:wght@100..900&family=DM+Serif+Display:ital@0;1&family=Instrument+Serif:ital@0;1&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Michroma&family=Poiret+One&family=Rubik+Bubbles&family=Rubik+Glitch&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+a{color: #BC9DFF; font-family: "Abril Fatface", serif;}
+.theme{color: #ADFF2F; font-family: "DM Serif Display", serif;}
+.name{color:#fff; font-family: "Bitcount Prop Single", system-ui;}
+
+section {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  font-size: 20px;
+}
+section video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section_text{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.section_text .Top {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    padding:80px;
+}
+
+.section_text .Center{
+    width:100%;
+    height: 700px;
+    padding: 50px 300px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.section_text .Center .name{
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+.section_text .Center .theme{
+    font-size: 200px;
+    text-align: center;
+    line-height: 200%;
+}
+.info{
+    text-align: center;
+    line-height: 130%;
+    color: #fff;
+    font-family: "Poiret One", sans-serif;
+    position: relative;
+    top: -50px;
+}
+.Bottom{
+    width: 100%;
+    padding: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.Go{
+    border: none;
+    background: #5E1EEA;
+    border-radius: 50px;
+    width: 120px;
+    height: 60px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 210%;
+    font-family: 'GmarketSansMedium';
+}
+
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

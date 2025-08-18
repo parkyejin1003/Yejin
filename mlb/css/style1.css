@@ -318,15 +318,7 @@ nav>ul>li>div>div>ul>li>a.tit{
     height: 578px;
     padding-bottom: 20px;
 }
-.smallImg .focusSwiper .swiper-slide .shoesbg{
-    width: 100%;
-    height: 460px;
 
-}
-.smallImg .focusSwiper .swiper-slide .shoesbg img{
-    width: 100%;
-    height: 100%;
-}
 .smallImg .focusSwiper .swiper-slide .textBox{
     height: 150px;
 }
@@ -359,7 +351,7 @@ nav>ul>li>div>div>ul>li>a.tit{
 .info-wrap ul li{}
 .info-wrap ul li a{
     display: flex;
-    height: 120px;
+    height: 180px;
 }
 .info-wrap ul li a .imgBox{
     width: 20%;
@@ -367,7 +359,6 @@ nav>ul>li>div>div>ul>li>a.tit{
 }
 .info-wrap ul li a .imgBox img{
     width: 100%;
-    height: 100px;
 }
 .info-wrap ul li a .textWrap{
     width: 70%;

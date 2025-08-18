@@ -21,6 +21,7 @@
     alert('구매가 완료되었습니다!');
   });
 
+  //menu
   $(document).ready(function() {
   $('.menu i').on('click', function() {
     $('.menu_view').toggleClass('active');
