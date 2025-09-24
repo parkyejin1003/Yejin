@@ -1,0 +1,526 @@
+body {
+    background: #f3f3f3;
+    padding: 70px;
+}
+
+.section1>h1,
+.section1>h2,
+.section1>p {
+    margin: 20px 0;
+    opacity: 0; /* 처음에는 안 보이게 */
+}
+.section1>h1{
+    font-family: 'RiaSans-ExtraBold';
+    font-size: 10rem;
+}
+.section1>h2{
+    font-family: 'GmarketSansMedium';
+    font-size: 7rem;
+    margin-top: 10px;
+}
+.section1>h3{
+    font-family: 'PyeongchangPeace';
+    font-size: 8rem;
+}
+.section1>p{
+    font-family: 'neurimboGothicRegular';
+    font-size: 5rem;
+    font-weight: bold;
+}
+.arrow{
+    margin: 20px auto;
+    animation: slideDown 1s ease forwards;
+    animation-delay: 1.2s; /* 딜레이 설정 */
+    display: flex;
+    flex-direction: column;   /* 세로 배치 */
+    justify-content: center;  /* 세로 가운데 */
+    align-items: center;      /* 가로 가운데 */
+    text-align: center;       /* 텍스트도 가운데 */
+    margin-top: 100px;         /* 위쪽 여백 (원하는 만큼 조절) */
+}
+.arrow span {
+  font-size: 18px;          /* 글자 크기 */
+}
+.icon {
+  position: absolute; /* 부모를 기준으로 위치 지정 가능 */
+  top: 600px;       /* 아래에서 20px 위 */
+  right: 80px;        /* 오른쪽에서 20px 왼쪽 */
+  display: flex;      /* 이미지 가로로 나열 */
+  gap: 10px;        /* 이미지 사이 간격 */
+}
+.icon>img{
+    width: 60px;       /* 이미지 크기 */
+    height: auto;      /* 높이는 자동 */
+    margin-left: 10px; /* 이미지 사이 간격 */
+}
+
+/* 왼쪽에서 등장 */
+.slide-left {
+    animation: slideLeft 1s ease forwards;
+}
+@keyframes slideLeft {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+/* 오른쪽에서 등장 */
+.slide-right {
+    text-align: right;
+    animation: slideRight 1s ease forwards;
+}
+@keyframes slideRight {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+.line-box h2 {
+  margin: 0;
+  opacity: 0;
+  text-align: right;
+  animation: slideRight 1s ease forwards;
+  font-family: 'GmarketSansMedium';
+  font-size: 7rem;
+}
+.line-box h1 {
+    font-family: 'RiaSans-ExtraBold';
+    font-size: 10rem;
+    margin: 0;
+    opacity: 0;
+    text-align: left;
+    animation: slideLeft 1s ease forwards;
+}
+
+/* 딜레이를 줘서 순서대로 나오게 */
+.delay-1 { animation-delay: 0.3s; }
+.delay-2 { animation-delay: 0.6s; }
+.delay-3 { animation-delay: 0.9s; }
+
+/* 2st */
+.section2{
+    margin-top: 400px;
+}
+.photo{
+    margin-left: 200px;
+}
+.text{
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+.quote1{
+    position: absolute;
+    left: 3%;
+    top: 120%;
+}
+.quote2{
+    position: absolute;
+    right: 10%;
+    top: 180%;
+}
+/* 3st */
+.section3{margin-top: 400px;}
+ul {
+  list-style: none;
+  margin-left: 70px;
+  font-family: 'GmarketSansMedium';
+  padding: 0;
+  width: 500px; /* 전체 메뉴 가로 늘림 */
+}
+
+li {
+  position: relative;
+  cursor: pointer;
+  font-size: 3rem;
+  padding: 8px;
+  width: 100%;
+}
+.section3 ul li a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px ;
+  display: block;
+  border-radius: 10px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.section3 ul li a:hover {
+  background: #000;
+  color: #fff;
+}
+
+.content{
+    position: absolute;
+    right: 10%;
+    top: 230%;
+}
+.eye{
+    position: absolute;
+    left: 2%;
+    top: 210%;
+    width: 150px;
+}
+.flower{
+    position: absolute;
+    right: 20%;
+    top: 230%;
+    width: 300px;
+}
+.cactus{
+    position: absolute;
+    right: 20%;
+    top: 250%;
+    width: 200px;
+}
+
+
+.section4{
+    margin-top: 400px;
+    text-align: center;
+}
+.section4 h4{
+    text-align: center;
+    font-family: 'Paperozi';
+    font-size: 5rem;
+    margin-top: 400px;
+    margin-bottom: 100px;
+}
+.section4 h5{
+    font-family: 'Paperozi';
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.notion-btn {
+  text-align: center;
+  margin-top: 20px; /* 제목과 버튼 사이 여백 */
+  margin-bottom: 90px;
+}
+.notion-btn a{
+  display: inline-block;
+  padding: 20px 40px;
+  background-color: #005eff; 
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.section5 h4{
+    text-align: center;
+    font-family: 'Paperozi';
+    font-size: 5rem;
+    margin-top: 400px;
+    margin-bottom: 50px;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 가로 5칸 */
+  gap: 10px; /* 간격 줄임 (20px → 10px) */
+  justify-items: center;
+  align-items: center;
+  margin-top: 20px; /* 제목과 이미지 사이 여백 */
+}
+
+.skill-grid img {
+  max-width: 100px;  /* 아이콘 크기도 살짝 줄임 */
+  height: auto;
+}
+
+
+
+.section6 h4{
+    text-align: center;
+    font-family: 'Paperozi';
+    font-size: 5rem;
+    margin-top: 400px;
+    margin-bottom: 150px;
+}
+.works {
+  display: flex;
+  gap: 40px;          /* 두 칸 사이 간격 */
+  align-items: flex-start; /* 위쪽 맞춤 */
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.work1, .work2 {
+  flex: 1;            /* 두 칸을 동일한 너비로 */
+  min-width: 300px;   /* 너무 좁아지지 않게 최소 너비 */
+  line-height: 1.6;
+}
+
+
+/* 한양여대ppt */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 가로 2열 고정 */
+  gap: 20px; /* 카드 사이 간격 */
+  padding: 40px;
+}
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+.buttons a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 16px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+}
+.buttons a:hover {
+  background: #333;
+  color: #fff;
+}
+
+.date, .tags, .desc {
+  color: #000;
+  font-size: 14px;
+  margin: 5px 0;
+  display: block;
+}
+
+/* 모바일 반응형 */
+@media (max-width: 768px) {
+  .portfolio {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* UIUX */
+.section7 h4{
+    text-align: center;
+    font-family: 'Paperozi';
+    font-size: 5rem;
+    margin-top: 300px;
+    margin-bottom: 150px;
+}
+
+.section7 .folder-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 1300px;      /* 이미지 크기에 맞게 늘림 (예: 4x300px + 여백) */
+  margin: 0 auto;
+  justify-content: center; /* 가운데 정렬 */
+}
+.section7 .folder-grid a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+span{
+  font-family: 'GmarketSansMedium';
+  font-size: 20px;
+}
+.section7 .folder-grid img {
+  width: 300px;   /* 원하는 크기로 조정 */
+  height: 300px;  /* 원하는 크기로 조정 */
+  transition: transform 0.2s;
+}
+.section7 .folder-grid img:hover {
+  transform: scale(1.1);
+}
+.section7 .folder-grid span {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* video */
+.section8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.section8 h4 {
+    text-align: center;
+    font-family: 'Paperozi';
+    font-size: 5rem;
+    margin-top: 300px; /* 위쪽 공간 조정 */
+    margin-bottom: 100px; /* 아래쪽 공간 조정 */
+}
+
+
+/* 연락처 폼 스타일 */
+.section9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.section9 h4 {
+    text-align: center;
+    font-family: 'Paperozi';
+    font-size: 5rem;
+    margin-top: 300px; /* 위쪽 공간 조정 */
+    margin-bottom: 100px; /* 아래쪽 공간 조정 */
+}
+.contact-flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px; /* 아이콘과 폼 사이 간격 */
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.contact-icons a {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* 이미지와 글자 사이 간격 */
+  margin-bottom: 20px; /* 각 링크 아래 여백 */
+  font-size: 1.5rem;
+  color: #333;
+  font-family: 'GmarketSansMedium';
+  text-decoration: none;
+}
+
+.contact-icons a img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.contact-form {
+  display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    width: 100%;
+  }
+
+.contact-form input, 
+.contact-form textarea, 
+.contact-form button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.man{
+    position: absolute;
+    right: 25%;
+    top: 230%;
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'RiaSans-ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/RiaSans-ExtraBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LOTTERIADDAG';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HSSanTokki20-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'neurimboGothicRegular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/neurimboGothicRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NeoDunggeunmo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Paperozi'; /* 페이퍼로지 */
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-1Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PyeongchangPeace'; /* 평창평화 */
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'LotteriaChwapttaenggyeo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GangwonEducationTteontteon';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cafe24ProUp';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2507-1@1.0/Cafe24PROUP.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
